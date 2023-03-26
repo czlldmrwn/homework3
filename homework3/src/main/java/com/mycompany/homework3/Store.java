@@ -75,7 +75,7 @@ public void workFromTo(int hoursOpen, int hoursClose){
         System.out.println(name + " works from " + hoursOpen + " to " + hoursClose);
 }
     else {
-        System.out.println(name + " works fot 24 hours");
+        System.out.println(name + " works for 24 hours");
 } 
 }
  @Override

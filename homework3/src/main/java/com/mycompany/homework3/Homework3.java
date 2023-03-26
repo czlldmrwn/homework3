@@ -24,3 +24,4 @@ public class Homework3 {
         System.out.println(store.toString());
     }
 }
+

@@ -36,17 +36,19 @@ public class Revisor extends Store{
     
     public void closeStore (Store store){
         String storeName = store.getName();
-        if (storeName.equalsIgnoreCase("IKEA")) {
+        if (storeName.equalsIgnoreCase("ikea")) {
             store.setName(null);
-        } 
+        }
     }
     
     public void rebrand (Store store) {
         String storeName = store.getName();
+        if (storeName != null) {
         if (storeName.equalsIgnoreCase("MacDonalds")) {
             store.setName("Вкусно и точка");
         } else {
             store.setName(storeName.substring(1));
         }
+    }
     }
 }
